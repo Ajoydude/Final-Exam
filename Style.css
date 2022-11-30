@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+}
+
+
+/* Style Halaman Beasiswa */
+body {
+    font-family: sans-serif;
+    font-size: 100%;
+    background-color: black;
+}
+
+header {
+    border: solid #4cc9f0;
+    border-width: 3px;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 4%;
+    background-color: #3a0ca3;
+    opacity: 90%;
+}
+
+.navbar-expand-md .typewriter {
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-family: RaleWay;
+    font-size: 150%;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    text-shadow: 1px 1px 1px white;
+    color: white;
+    font-size: 130%;
+    font-weight: 100;
+}
+
+.navbar-expand-md .navbar-brand {
+    size-adjust: 150%;
+    border: none;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    border: solid #3a0ca3;
+    border-width: 1px;
+    padding: 7px 7px 7px 7px;
+    border-width: 2px;
+    border-radius: 14%;
+    align-content: center;
+    position: relative;
+}
+
+nav a:hover, nav a:focus, nav a:active {
+    color: #74c69d;
+    border-color: #74c69d;
+    text-decoration: underline;
+}
+
+nav a:active {
+    text-decoration: underline;
+}
+
+h1.beasiswa {
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    font-family: Montserrat;
+    text-shadow: 1px 1px 3px black;
+}
+
+div.left .h3-kartu, div.left .h3-program {
+    margin-top: 50px;
+}
+
+div.left {
+    color: white;
+    background-color:#3a0ca3;
+    border: 1px solid #3a0ca3;
+    padding: 0px 7px;
+    border-radius: 4%;
+    margin: 50px auto;
+    box-shadow: 0 0 13px black;
+    font-size: 85%
+}
+
+.left h3 {
+    border-top: 1px solid white;
+    padding-top: 8px;
+}
+
+main img {
+    grid-area: right;
+    height: 170%;
+    width: 100%;
+    border: black;
+    border-width: 9px;
+    
+}
+
+footer {
+    border: 1px black;
+    text-align: right;
+    grid-area: footer;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 106%;
+    text-transform: bold;
+}
+
+/* Style Halaman Kontak Kami */
+.kontak {
+    margin-bottom: 20px;
+}
+
+div.typewriter {
+    text-shadow: 1px 1px 3px black;
+    font-size: 190%;
+}
+
+.main-kontak {
+    margin: 30px 12px 30px 12px;
+}
+
+.wrap {
+    color: white;
+    background-color:#3a0ca3;
+    border: 1px solid #3a0ca3;
+    padding: 0px 10px;
+    border-radius: 4%;
+    margin: 50px auto;
+    box-shadow: 0 0 13px black;
+    font-size: 85%
+}
+
+.wrap .hubungi-kami {
+    padding: 15px 10px 20px;
+    border-bottom: 1px solid black;
+    text-shadow: 1px 1px 3px black;
+}
+
+.wrap p {
+    color: white;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.footer .copy {
+    text-align: bottom;
+    margin-bottom: 0;
+}
+
+@font-face {
+    font-family: RaleWay;
+    src: url(./Font/static/Raleway-SemiBold.ttf);
+}
+
